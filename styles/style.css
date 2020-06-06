@@ -1,13 +1,13 @@
 header{
-    padding: 100px;
+    padding: 80px;
 }
 
 #logo{
-    border-radius: 50%;
     max-width: 80%; 
     display: block;
     margin-left: auto;
-    margin-right: auto;      
+    margin-right: auto;   
+     
 }
 
 #top_menu{
@@ -21,6 +21,28 @@ header{
 #images{
     padding: 10px;
 }
+#button_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+button{
+    height: 36px;
+    
+}
+
+input[type=text]{
+    border: 1px solid rgb(201, 197, 197);
+    width: 300px;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 0px;
+    height: 34px;
+    font-size: 16px;
+}
 
 
 .left_align{
@@ -31,10 +53,18 @@ header{
 
 .center{
     display: block;
-    text-align: -webkit-center;
-    
+    text-align: -webkit-center;    
     max-width: 1000%; 
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+    background-color: rgb(218, 216, 216);
+    
 }
